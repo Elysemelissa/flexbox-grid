@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(353deg, rgba(148, 210, 189, 1) 40%, rgba(61, 147, 151, 1) 100%);
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  background-color: #001219;
+  color: white;
+  padding: 1rem;
+}
+
+figcaption * {
+  margin: 0.5rem;
+}
+
+figure>div {
+  background-image: url("fuji-san.jpg");
+  background-size: cover;
+  min-height: 150px;
+}
