@@ -13,11 +13,13 @@ body {
   border: 0;
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(353deg, rgba(148, 210, 189, 1) 40%, rgba(61, 147, 151, 1) 100%);
+  /* min-height: 100vh; */
 }
 
 figure {
   margin: 0;
   padding: 0;
+  flex-basis: 22%;
 }
 
 figcaption {
@@ -34,4 +36,35 @@ figure>div {
   background-image: url("fuji-san.jpg");
   background-size: cover;
   min-height: 150px;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 4%;
+}
+
+.span2 {
+  flex-basis: 48%;
+}
+
+.span3 {
+  flex-basis: 74%;
+}
+
+.span4 {
+  flex-basis: 100%;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
 }
