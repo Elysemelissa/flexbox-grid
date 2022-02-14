@@ -80,13 +80,14 @@ body {
 
 figure {
   margin: 0;
-  padding: 20px 10px;
+  padding: 15px 10px;
 }
 
 figcaption {
   background-color: #001219;
   color: white;
   padding: 1rem;
+  border-radius: 0px 0px 5px 5px;
 }
 
 figcaption * {
@@ -97,4 +98,5 @@ figure>div {
   background-image: url("japan.jpg");
   background-size: cover;
   min-height: 150px;
+  border-radius: 5px 5px 0px 0px;
 }
